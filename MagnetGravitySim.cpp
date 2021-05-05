@@ -1,9 +1,9 @@
 /* //////////////////////////////////////////////////////////////// */
 /* CompSci459) Fundamentals of Computer Graphics                    */
-/*			Programming Assignment 4					            */
+/*			Programming Assignment 4		    */
 /*                                                                  */
 /* ------------                                                     */
-/* Anna Fischer                                                     */
+/* amimotoAnna                                                      */
 /* //////////////////////////////////////////////////////////////// */
 
 #include <GL/glut.h>
