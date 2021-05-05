@@ -1,6 +1,6 @@
 /* //////////////////////////////////////////////////////////////// */
-/* CompSci459) Fundamentals of Computer Graphics                    */
-/*			Programming Assignment 4		    */
+/*  Fundamentals of Computer Graphics                    	    */
+/*  Interactive Magnetic Bouncing Ball GravityBox Simulation	    */
 /*                                                                  */
 /* ------------                                                     */
 /* amimotoAnna                                                      */
@@ -104,21 +104,21 @@ float vpx[maxFlying], vpy[maxFlying], vpz[maxFlying];
 void writemessage()
 {
 	printf("\n\
-Assignment 4 | Interactive Magnet Box  | By: Anna Fischer\n\
+Interactive Magnet Box  | By: amimotoAnna\n\
 	NOTE: Blue	 ...	Negative\n\
-		  Red	 ...	Positive\n\
-          Purple ...	Neutral\n\
+	      Red	 ...	Positive\n\
+              Purple 	 ...	Neutral\n\
 The following key bindings perform their respective actions as given.\n\
 	arrow keys ---------------- moves the camera angling and viewpoint\n\
-    right button -------------- linked to GLUT menu choices:\n\
-                            --- changes number of magnets\n\
+        right button -------------- linked to GLUT menu choices:\n\
+                                    --- changes number of magnets\n\
 		                    --- randomizes stationary magnet locations\n\
-						    --- changes polarities of stationary magnets\n\
-							--- changes polarities of flying magnets\n\
-							--- restarts program to default settings\n\
-							--- exit\n\
+				    --- changes polarities of stationary magnets\n\
+				    --- changes polarities of flying magnets\n\
+				    --- restarts program to default settings\n\
+				    --- exit\n\
 	left button --------------- click and hold down to drag magnets\n\
-							--- CTRL-click to change polarities cyclically\n\
+				    --- CTRL-click to change polarities cyclically\n\
 	k ------------------------- increases number of flying magnets to 10 maximum\n\
 	j ------------------------- decreases number of flying magnets to 1 minimum\n\
 	> ------------------------- increases attraction/ repulsion power between magnets\n\
